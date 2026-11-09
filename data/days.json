@@ -1,0 +1,28 @@
+{
+	"1": {
+		"title": "An Unusual Login",
+		"phases": {
+			"investigation": {
+				"dialogue": "res://scenes/gameplay/visual novel/day 1/BeforeInvestigation.json",
+				"scene": "res://scenes/gameplay/investigation/Investigation.tscn",
+				"data": "res://data/scenarios/day 1/investigation.json"
+			},
+			"monitoring": {
+				"dialogue": "res://scenes/gameplay/visual novel/day 1/BeforeMonitoring.json",
+				"scene": "res://scenes/gameplay/monitoring/Monitoring.tscn",
+				"data": "res://data/scenarios/day 1/monitoring.json"
+			},
+			"hardening": {
+				"dialogue": "res://scenes/gameplay/visual novel/day 1/BeforeHardening.json",
+				"scene": "res://scenes/gameplay/hardening/Hardening.tscn"
+			},
+			"response": {
+				"scene": "res://AI generated/scenes/response/Response.tscn"
+			},
+			"recovery": {
+				"scene": "res://scenes/gameplay/recovery/Recovery.tscn",
+				"data": "res://data/recovery/day1_recovery.json"
+			}
+		}
+	}
+}
